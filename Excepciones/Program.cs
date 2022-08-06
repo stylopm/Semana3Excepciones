@@ -6,7 +6,17 @@ namespace Excepciones
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            Test test = new Test();
+            //test.division();
+            //test.divisionMasEspecifico();
+            //test.arreglo();
+            //test.mayorEdad();
+            test.agregarElementos();
         }
+
+
+
+
     }
 }
